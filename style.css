@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    float: 0 auto;
+    background-image: linear-gradient(rgb(48, 15, 165) ,rgb(24, 24, 101) ,rgb(61, 113, 130));
+}
+.divfull{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8% auto;
+}
+.box{
+    box-shadow: 13px 13px 20px -8px black ;
+    -webkit-box-shadow: 13px 13px 20px -8px black ;
+    -moz-box-shadow:13px 13px 20px -8px black ;
+}
+input{
+    color: aliceblue;
+}
+.formerror{
+    background-color: rgb(255, 2, 2,0.5);
+    color: white;
+}
+#name::placeholder , #email::placeholder ,#pass::placeholder{
+    color: white;
+}
+.background{
+    background-color: rgb(45, 45, 225) !important ;
+    text-transform: capitalize;
+}
